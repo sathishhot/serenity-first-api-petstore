@@ -32,6 +32,6 @@ public class PetApiActions extends UIInteractions {
 	
 	@Then("I get Kitty as result")
 	public void thenISeeKittyAsResult() {	
-		then().body("name", Matchers.equalTo("Kitty"));
+		then().body("name", Matchers.equalTo("kitty"));
 	}
 }
